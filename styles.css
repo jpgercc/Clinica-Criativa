@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #6366f1;
+    --primary-color: #4300af;
     --primary-dark: #4f46e5;
-    --secondary-color: #ec4899;
+    --secondary-color: #2de100;
     --accent-color: #06b6d4;
     --background: #fefefe;
     --background-alt: #f8fafc;
@@ -261,20 +261,20 @@ body {
 .card-1 {
     top: 20%;
     left: 30%;
-    animation-delay: 0s;
+    animation-delay: 2s;
 }
 
 .card-2 {
     top: 55%;
     right: 5%;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .card-3 {
     bottom: 5%;
     left: 20%;
     transform: translateX(-50%);
-    animation-delay: 4s;
+    animation-delay: 0s;
 }
 
 @keyframes float {
@@ -716,6 +716,50 @@ section {
 }
 
 /* ====== RESPONSIVIDADE ====== */
+@media (max-width: 1200px) {
+    .card-1 {
+        top: 20%;
+        left: 5%;
+        animation-delay: 2s;
+    }
+
+    .card-2 {
+        top: 30%;
+        right: 10%;
+        animation-delay: 1s;
+    }
+
+    .card-3 {
+        bottom: 5%;
+        left: 30%;
+        transform: translateX(-50%);
+        animation-delay: 0s;
+    }
+    
+}
+
+@media (max-width: 970px) {
+    .card-1 {
+        top: 20%;
+        left: 5%;
+        animation-delay: 2s;
+    }
+
+    .card-2 {
+        top: 30%;
+        right: 0%;
+        animation-delay: 1s;
+    }
+
+    .card-3 {
+        bottom: 5%;
+        left: 30%;
+        transform: translateX(-50%);
+        animation-delay: 0s;
+    }
+    
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -769,6 +813,25 @@ section {
     
     .floating-card span {
         font-size: 0.8rem;
+    }
+
+    .card-1 {
+        top: 20%;
+        left: 10%;
+        animation-delay: 2s;
+    }
+
+    .card-2 {
+        top: 30%;
+        right: 10%;
+        animation-delay: 1s;
+    }
+
+    .card-3 {
+        bottom: 5%;
+        left: 30%;
+        transform: translateX(-50%);
+        animation-delay: 0s;
     }
     
     .about-content {
@@ -867,6 +930,27 @@ section {
     
     .logo i {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px){
+    .card-1 {
+        top: 20%;
+        left: 0%;
+        animation-delay: 2s;
+    }
+
+    .card-2 {
+        top: 30%;
+        right: 0%;
+        animation-delay: 1s;
+    }
+
+    .card-3 {
+        bottom: 5%;
+        left: 30%;
+        transform: translateX(-50%);
+        animation-delay: 0s;
     }
 }
 
