@@ -1,3 +1,3 @@
 # Manô
 
-@media pro footer. Arrumar: app icos em linhas diferentes e adicionar espaçamento de linha nos nomes
+[Apresentação Canva](https://www.canva.com/design/DAGvgppqdvU/ryyHS5LWKc29mA_7S09hew/edit?utm_content=DAGvgppqdvU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
