@@ -178,7 +178,7 @@ function initScrollAnimations() {
     }
 }
 
-// ====== INTERAÇÕES DOS CARDS DE PRODUTO ======
+// ====== INTERAÇÕES DOS CARDS DE PRODUTO ====== Excluir para manter o pop-up
 function initProductCards() {
     const productCards = document.querySelectorAll('.product-card');
     
