@@ -3,7 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Criativa</title>
+    <title>Clínica Criativa - Recursos Terapêuticos para Crianças e Adolescentes | Manoela Sparta Costa</title>
+    <meta name="description" content="Recursos terapêuticos criativos e afetivos para profissionais da saúde mental. Materiais digitais para terapia infantojuvenil desenvolvidos pela psicóloga Manoela Sparta Costa.">
+    <meta name="keywords" content="terapia infantil, recursos terapêuticos, materiais para psicólogos, terapia lúdica, psicologia infantojuvenil, atividades terapêuticas, Manoela Sparta Costa">
+    <meta name="author" content="Manoela Sparta Costa">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clinicacriativa.com.br/">
+    <meta property="og:title" content="Clínica Criativa - Recursos Terapêuticos para Crianças e Adolescentes">
+    <meta property="og:description" content="Recursos terapêuticos criativos e afetivos para profissionais da saúde mental. Materiais digitais para terapia infantojuvenil.">
+    <meta property="og:image" content="https://clinicacriativa.com.br/about.png">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://clinicacriativa.com.br/">
+    <meta property="twitter:title" content="Clínica Criativa - Recursos Terapêuticos para Crianças e Adolescentes">
+    <meta property="twitter:description" content="Recursos terapêuticos criativos e afetivos para profissionais da saúde mental. Materiais digitais para terapia infantojuvenil.">
+    <meta property="twitter:image" content="https://clinicacriativa.com.br/about.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://clinicacriativa.com.br/">
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Clínica Criativa",
+      "description": "Recursos terapêuticos criativos e afetivos para profissionais da saúde mental. Materiais digitais para terapia infantojuvenil.",
+      "url": "https://clinicacriativa.com.br",
+      "logo": "https://clinicacriativa.com.br/ico.svg",
+      "image": "https://clinicacriativa.com.br/about.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Manoela Sparta Costa",
+        "jobTitle": "Estudante de Psicologia",
+        "description": "Especialista em terapia infantojuvenil e desenvolvimento de recursos terapêuticos criativos"
+      },
+      "serviceType": "Recursos Terapêuticos",
+      "areaServed": "Brasil",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Produtos Terapêuticos",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Recursos para Adolescentes",
+              "description": "Material especializado para trabalhar emoções e autoconhecimento com adolescentes"
+            }
+          }
+        ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-51-96534-713",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese"
+      },
+      "sameAs": [
+        "https://instagram.com/psi.manoelasparta",
+        "https://psimanoelasparta.gumroad.com/"
+      ]
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -11,19 +79,19 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <nav class="nav">
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Menu principal">
             <div class="logo">
-                <i class="fas fa-brain"></i>
+                <i class="fas fa-brain" aria-hidden="true"></i>
                 <span>Clínica Criativa</span>
             </div>
             <div class="nav-links">
-                <a href="#sobre-mim">Sobre Mim</a>
-                <a href="#sobre">Sobre os Produtos</a>
-                <a href="#produtos">Produtos</a>
-                <a href="#contato">Contato</a>
+                <a href="#sobre-mim" aria-label="Ir para seção sobre mim">Sobre Mim</a>
+                <a href="#sobre" aria-label="Ir para seção sobre os produtos">Sobre os Produtos</a>
+                <a href="#produtos" aria-label="Ir para seção de produtos">Produtos</a>
+                <a href="#contato" aria-label="Ir para seção de contato">Contato</a>
             </div>
-            <div class="hamburger">
+            <div class="hamburger" role="button" aria-label="Menu mobile" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,7 +100,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" role="main">
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">
@@ -43,50 +111,50 @@
                     Para tornar sua escuta mais leve, criativa e acolhedora
                 </p>
                 <div class="hero-buttons">
-                    <a href="#" id="btn-ver-materiais" class="btn btn-primary" target="_blank">
-                        <i class="fas fa-download"></i>
+                    <a href="#" id="btn-ver-materiais" class="btn btn-primary" target="_blank" aria-label="Ver materiais terapêuticos disponíveis">
+                        <i class="fas fa-download" aria-hidden="true"></i>
                         Ver Materiais
                     </a>
-                    <a href="#sobre-mim" class="btn btn-secondary">
-                        <i class="fas fa-info-circle"></i>
+                    <a href="#sobre-mim" class="btn btn-secondary" aria-label="Saiba mais sobre Manoela Sparta Costa">
+                        <i class="fas fa-info-circle" aria-hidden="true"></i>
                         Saiba Mais
                     </a>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="floating-card card-1">
-                    <i class="fas fa-palette"></i>
+                <div class="floating-card card-1" aria-label="Atividades Criativas">
+                    <i class="fas fa-palette" aria-hidden="true"></i>
                     <span>Atividades Criativas</span>
                 </div>
-                <div class="floating-card card-2">
-                    <i class="fas fa-heart"></i>
+                <div class="floating-card card-2" aria-label="Cuidado Afetivo">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
                     <span>Cuidado Afetivo</span>
                 </div>
-                <div class="floating-card card-3">
-                    <i class="fas fa-users"></i>
+                <div class="floating-card card-3" aria-label="Para Todas as Idades">
+                    <i class="fas fa-users" aria-hidden="true"></i>
                     <span>Para Todas as Idades</span>
                 </div>
             </div>
         </div>
         <div class="hero-scroll">
-            <div class="scroll-indicator">
-                <i class="fas fa-chevron-down"></i>
+            <div class="scroll-indicator" role="button" aria-label="Rolar para baixo">
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
             </div>
         </div>
     </section>
 
     <!-- Products Section -->
-    <section id="produtos" class="products">
+    <section id="produtos" class="products" role="region" aria-labelledby="produtos-heading">
         <div class="container">
             <div class="section-header">
-                <h2>Produtos em Destaque</h2>
+                <h2 id="produtos-heading">Produtos em Destaque</h2>
                 <p>Recursos prontos para imprimir e transformar sua prática clínica</p>
             </div>
             
-            <div class="products-grid">
-                <div class="product-card" data-category="criancas" data-link="">
+            <div class="products-grid" role="list">
+                <article class="product-card" data-category="criancas" data-link="" role="listitem">
                     <div class="product-image">
-                        <i class="fas fa-child"></i>
+                        <i class="fas fa-child" aria-hidden="true"></i>
                         <div class="product-overlay">
                             <span class="price">Em Breve</span>
                         </div>
@@ -101,11 +169,11 @@
                         </div>
                         -->
                     </div>
-                </div>
+                </article>
 
-                <div class="product-card" data-category="adolescentes" data-link="https://psimanoelasparta.gumroad.com/l/hnsokd">
+                <article class="product-card" data-category="adolescentes" data-link="https://psimanoelasparta.gumroad.com/l/hnsokd" role="listitem">
                     <div class="product-image">
-                        <i class="fas fa-user-friends"></i>
+                        <i class="fas fa-user-friends" aria-hidden="true"></i>
                         <div class="product-overlay">
                             <span class="price">R$ 35,00</span>
                         </div>
@@ -118,11 +186,11 @@
                             <span class="tag">5 páginas</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="product-card" data-category="adultos" data-link="">
+                <article class="product-card" data-category="adultos" data-link="" role="listitem">
                     <div class="product-image">
-                        <i class="fas fa-user"></i>
+                        <i class="fas fa-user" aria-hidden="true"></i>
                         <div class="product-overlay">
                             <span class="price">Em breve</span>
                         </div>
@@ -137,15 +205,15 @@
                         </div>
                         -->
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="cta-section">
                 <div class="cta-content">
                     <h3>Descubra todos os nossos materiais</h3>
                     <p>Acesse a loja completa com diversos recursos terapêuticos</p>
-                    <a href="https://psimanoelasparta.gumroad.com/" id="btn-ver-materiais" class="btn btn-primary btn-large" target="_blank">
-                        <i class="fas fa-store"></i>
+                    <a href="https://psimanoelasparta.gumroad.com/" id="btn-ver-materiais" class="btn btn-primary btn-large" target="_blank" aria-label="Acessar loja completa de materiais terapêuticos">
+                        <i class="fas fa-store" aria-hidden="true"></i>
                         Descubra
                     </a>
                 </div>
@@ -153,13 +221,13 @@
         </div>
     </section>
 
-    <section id="sobre-mim" class="about-me">
+    <section id="sobre-mim" class="about-me" role="region" aria-labelledby="sobre-mim-heading">
         <div class="container">
             <div class="about-me-content">
                 <div class="about-me-image">
                     <div class="image-container">
-                        <img src="./about.png" alt="Manoela Sparta Costa - Psicóloga" class="profile-photo">
-                        <div class="image-decoration">
+                        <img src="./about.png" alt="Manoela Sparta Costa - Psicóloga especializada em terapia infantojuvenil" class="profile-photo" loading="lazy">
+                        <div class="image-decoration" aria-hidden="true">
                             <div class="decoration-circle circle-1"></div>
                             <div class="decoration-circle circle-2"></div>
                             <div class="decoration-circle circle-3"></div>
@@ -168,7 +236,7 @@
                 </div>
                 <div class="about-me-text">
                     <div class="section-header">
-                        <h2>Sobre Mim</h2>
+                        <h2 id="sobre-mim-heading">Sobre Mim</h2>
                         <!--<p>Conheça a profissional por trás dos materiais</p>-->
                     </div>
                     <div class="about-me-description">
@@ -185,28 +253,28 @@
                         <h4>Especialidades e Foco:</h4>
                         <div class="specialty-tags">
                             <span class="specialty-tag">
-                                <i class="fas fa-child"></i>
+                                <i class="fas fa-child" aria-hidden="true"></i>
                                 Terapia Infantil
                             </span>
                             <span class="specialty-tag">
-                                <i class="fas fa-palette"></i>
+                                <i class="fas fa-palette" aria-hidden="true"></i>
                                 Técnicas Lúdicas
                             </span>
                             <span class="specialty-tag">
-                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-heart" aria-hidden="true"></i>
                                 Abordagem Afetiva
                             </span>
                             <span class="specialty-tag">
-                                <i class="fas fa-lightbulb"></i>
+                                <i class="fas fa-lightbulb" aria-hidden="true"></i>
                                 Materiais Criativos
                             </span>
                         </div>
                     </div>
                     <div class="about-me-cta">
                         <p class="cta-text">
-                            <i class="fas fa-quote-left"></i>
+                            <i class="fas fa-quote-left" aria-hidden="true"></i>
                             "Cada material que crio carrega o propósito de transformar momentos terapêuticos em experiências significativas e transformadoras."
-                            <i class="fas fa-quote-right"></i>
+                            <i class="fas fa-quote-right" aria-hidden="true"></i>
                         </p>
                     </div>
 
@@ -228,12 +296,12 @@
     </section>
 
     <!-- About Section -->
-    <section id="sobre" class="about">
+    <section id="sobre" class="about" role="region" aria-labelledby="sobre-heading">
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
                     <div class="section-header">
-                        <h2>Sobre os Produtos</h2>
+                        <h2 id="sobre-heading">Sobre os Produtos</h2>
                     </div>
                     <p class="about-description">
                         Cada material da Clínica Criativa foi pensado <b>com afeto, propósito e sensibilidade.</b>
@@ -250,21 +318,21 @@
                     
                     <div class="features">
                         <div class="feature">
-                            <i class="fas fa-print"></i>
+                            <i class="fas fa-print" aria-hidden="true"></i>
                             <div>
                                 <h4>Pronto para Imprimir</h4>
                                 <p>Alta qualidade, otimizados para impressão doméstica e profissional</p>
                             </div>
                         </div>
                         <div class="feature">
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" aria-hidden="true"></i>
                             <div>
                                 <h4>Criado com Afeto</h4>
                                 <p>Cada recurso é desenvolvido pensando no cuidado e no acolhimento terapêutico</p>
                             </div>
                         </div>
                         <div class="feature">
-                            <i class="fas fa-download"></i>
+                            <i class="fas fa-download" aria-hidden="true"></i>
                             <div>
                                 <h4>Download Imediato</h4>
                                 <p>Acesso instantâneo aos seus materiais digitais</p>
@@ -272,7 +340,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-visual">
+                <div class="about-visual" aria-hidden="true">
                     <div class="visual-element">
                         <div class="circle circle-1"></div>
                         <div class="circle circle-2"></div>
@@ -311,32 +379,32 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contato" class="contact">
+    <section id="contato" class="contact" role="region" aria-labelledby="contato-heading">
         <div class="container">
             <div class="contact-content">
                 <div class="section-header">
-                    <h2>Dúvidas? Entre em contato!</h2>
+                    <h2 id="contato-heading">Dúvidas? Entre em contato!</h2>
                     <p>Estamos aqui para te ajudar</p>
                 </div>
                 
-                <div class="contact-info">
-                    <a href="https://wa.me/555596534713?text=Olá Manoela! Vim através do site e estou com dúvidas sobre um assunto, pode me ajudar?" class="contact-link">
-                        <i class="fa-brands fa-whatsapp"></i>
+                <div class="contact-info" role="list">
+                    <a href="https://wa.me/555596534713?text=Olá Manoela! Vim através do site e estou com dúvidas sobre um assunto, pode me ajudar?" class="contact-link" role="listitem" aria-label="Entrar em contato via WhatsApp">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                         <div>
                             <h4>WhatsApp</h4>
                             <p>+55 51 9653-4713</p>
                         </div>
                     </a>
 
-                    <a href="https://instagram.com/psi.manoelasparta" class="contact-link" target="_blank">
-                        <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/psi.manoelasparta" class="contact-link" target="_blank" role="listitem" aria-label="Seguir no Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
                         <div>
                             <h4>Instagram</h4>
                             <p>@psi.manoelasparta</p>
                         </div>
                     </a> <!--"https://mail.google.com/mail/?view=cm&fs=1&to=manoelaspartacosta@gmail.com"-->
-                    <a href="mailto:manoelaspartacosta@gmail.com?subject=Dúvida" class="contact-link" target="_blank">
-                        <i class="fas fa-envelope"></i>
+                    <a href="mailto:manoelaspartacosta@gmail.com?subject=Dúvida" class="contact-link" target="_blank" role="listitem" aria-label="Enviar e-mail">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                         <div>
                             <h4>E-mail</h4>
                             <p>manoelaspartacosta@gmail.com</p>
@@ -348,11 +416,11 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <i class="fas fa-brain"></i>
+                    <i class="fas fa-brain" aria-hidden="true"></i>
                     <span>Clínica Criativa</span>
                 </div>
                 <!--
@@ -373,7 +441,7 @@
             </div>
             <div class="footer-text">
                 <p>&copy; 2025 Manoela Sparta Souza Costa</p>
-                <p>Desenvolvido por: <a href="https://www.linkedin.com/in/jpgeco/" target="_blank" style="text-decoration: none; color: inherit;">João Pedro Gershenson Costa</a>.</p>
+                <p>Desenvolvido por: <a href="https://www.linkedin.com/in/jpgeco/" target="_blank" style="text-decoration: none; color: inherit;" rel="noopener">João Pedro Gershenson Costa</a>.</p>
             </div>
         </div>
     </footer>
