@@ -6,13 +6,13 @@
 }
 
 :root {
-    --primary-color: #4300af;
-    --primary-dark: #4f46e5;
-    --secondary-color: #0d7eff;
-    --accent-color: #06b6d4;
-    --background: #fefefe;
-    --background-alt: #f8fafc;
-    --text-primary: #1e293b;
+    --primary-color: #683a19;
+    --primary-dark: #673918;
+    --secondary-color: #e6bdab;
+    --accent-color: #ecd7c2;
+    --background: #fcf2e6;
+    --background-alt: #c2d8d5;
+    --text-primary: #1e293b; /* Mantendo o texto escuro para contraste */
     --text-secondary: #64748b;
     --text-light: #94a3b8;
     --border-color: #e2e8f0;
@@ -1348,7 +1348,7 @@ section {
         font-size: 1.8rem;
     }
     
-    .about-me-text .section-header p {
+    .about-me_text .section-header p {
         font-size: 1rem;
     }
     
